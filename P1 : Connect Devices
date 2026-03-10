@@ -1,0 +1,18 @@
+# Part 1: Connect Network Devices and Hosts
+
+## Step 1: Power on Devices
+1. Open each device → **Physical Tab**.
+2. Turn on the power switch. Green light indicates device is powered on.
+
+## Step 2: Connect the End Devices
+| Device        | Interface/Port | Connected To | Connection Interface/Port |
+|---------------|----------------|--------------|--------------------------|
+| Office Router | G0/0           | ISP1         | G0/0                     |
+| Office Router | G0/1           | Switch       | G0/1                     |
+| Admin PC      | NIC (F0)       | Switch       | F0/1                     |
+| Manager PC    | NIC (F0)       | Switch       | F0/2                     |
+| Printer       | NIC (F0)       | Switch       | F0/24                    |
+
+- Use **Copper Straight-Through cables** to connect devices.
+- For internet to router connection, use the dropdown on the cloud.
+- Green link lights indicate successful physical connections.

@@ -1,0 +1,15 @@
+# Part 3: Verify End Device Configuration and Connectivity
+
+## Step 1: Verify Connectivity Between PCs
+1. Check IP configuration on both PCs (192.168.1.0 / 255.255.255.0).
+2. From **Admin PC**, ping Printer’s IP.
+3. Repeat from **Manager PC**.  
+✅ Successful pings confirm proper configuration.
+
+## Step 2: Verify Internet Connectivity
+1. Open Web Browser on both PCs.
+2. Enter IP address of internet server → confirm webpage loads.
+3. Enter URL of the server → confirm webpage loads.
+
+## Questions
+- If connection works by IP but not by URL, likely cause: DNS issue.

@@ -1,0 +1,18 @@
+# Part 4: Use Networking Commands to View Host Information
+
+## Step 1: ipconfig
+1. Open **Command Prompt** on PC.
+2. Enter `ipconfig` → note IP address, subnet mask, default gateway.
+3. Enter `ipconfig /all` → additional info displayed: MAC address, DNS servers, DHCP status.
+
+## Step 2: tracert
+1. Open **Command Prompt** on PC.
+2. Enter `tracert <server URL>`.
+3. Observe the routers passed along the route.
+
+## Questions
+1. How many routers are passed? How are they identified?  
+   *Answer here*
+
+2. Where is the second router located?  
+   *Answer here*

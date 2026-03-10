@@ -1,0 +1,18 @@
+# Part 2: Configure Devices with IPv4 Addressing
+
+## Step 1: Configure Hosts
+- **Admin PC** and **Manager PC**:
+  - Desktop → IP Configuration → Enable DHCP
+  - Receive IP dynamically from Office Router
+
+- **Printer**:
+  - Config Tab → FastEthernet0 interface
+  - Enter static IPv4 Address: 192.168.1.100
+  - Subnet Mask: 255.255.255.0
+
+## Questions
+1. Why are IPv4 addresses different but subnet masks and gateways the same?  
+   *Answer here*
+
+2. If the printer requires a default gateway, which value should it use?  
+   *Answer here (typically the router’s IP address)*
